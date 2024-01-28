@@ -1,0 +1,78 @@
+@media only screen and (max-width: 700px){
+
+    body{
+        background-color: rgb(32, 31, 31);
+        color: white;
+        font-family: "Roboto";
+    }
+
+    .title{
+        text-align: center;
+        font-size: 23px;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+
+   .result{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+   }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+       
+    }
+
+    .rock, .paper, .scissors{
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(223, 219, 24);
+        border-radius: 120px;
+        padding: 10px 20px 10px 20px;
+        border: 2px solid white;
+        
+    }
+
+    .scissors i{
+        transform: rotate(90deg);
+    }
+
+    .rock i, .paper i, .scissors i{
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    .moveSection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .comps, .you{
+      display: flex;
+      align-items: center;
+      
+    }
+
+    .compMove, .YourMove{
+        margin-right: 10px;
+    }
+
+    .icon1, .icon2{
+        font-size: 20px;
+      
+    }
+
+    .resetBtn{
+        color: rgb(0, 0, 0);
+        background-color: white;
+        padding: 10px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+}
